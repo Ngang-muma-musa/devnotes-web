@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/devnotes-web/static/css/main.9fdd15a3.css",
+    "main.js": "/devnotes-web/static/js/main.2f8e9a28.js",
+    "static/js/787.17086858.chunk.js": "/devnotes-web/static/js/787.17086858.chunk.js",
+    "index.html": "/devnotes-web/index.html",
+    "main.9fdd15a3.css.map": "/devnotes-web/static/css/main.9fdd15a3.css.map",
+    "main.2f8e9a28.js.map": "/devnotes-web/static/js/main.2f8e9a28.js.map",
+    "787.17086858.chunk.js.map": "/devnotes-web/static/js/787.17086858.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fdd15a3.css",
+    "static/js/main.2f8e9a28.js"
+  ]
+}
