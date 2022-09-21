@@ -9,11 +9,10 @@ import MenuContainer from "./menucontainer";
 import MenuPillContainer from "./menupillcontainer";
 
 const AddNote = props => {
- const [notes, setNotes] = useState([{title:'',note:''}])
     return (
         <Background>
             <Container>
-                <FormContainer  setNotes ={setNotes}/>
+                <FormContainer/>
                 <MenuContainer>
                     <MenuPillContainer>
                         <div className='color new'>
