@@ -1,0 +1,45 @@
+.note{
+    height: 90%;
+    width: 46%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .notetitle{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+  .date{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+  }
+  .content{
+    line-height: 25px;
+    color: rgb(52, 52, 52);
+  }
+  .delup{
+    position: relative;
+    height: 11%;
+    width: 25%;
+    background-color: #FF9551;
+    left: 75%;
+    border-radius: 500px;
+    bottom: -26%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .icons{
+    position: relative;
+    background-color: #f1f1f1;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    font-family: sans-serif;
+  }
