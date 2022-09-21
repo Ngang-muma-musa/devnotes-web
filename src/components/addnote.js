@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import Background from "./backgound";
 import Container from "./container";
 import { BsFillCheckCircleFill } from "react-icons/bs";

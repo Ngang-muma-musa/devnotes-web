@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import '../components/css/formcontainer.css';
-function FormContainer({setNotes}) {
+function FormContainer() {
   
     // useEffect(()=>{
     //     setNotes({
