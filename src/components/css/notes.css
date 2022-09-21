@@ -4,6 +4,7 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    opacity: 0;
   }
   .notetitle{
     font-size: 2rem;
@@ -42,4 +43,8 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     font-family: sans-serif;
+  }
+  .active{
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
   }

@@ -6,7 +6,12 @@
   transform: translateX(-50%);
   top: 6%;
   display: flex;
+  flex-basis: 100%;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: 1fr 1fr;
+}
+
+.active{
+  opacity: 1;
 }

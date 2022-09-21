@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../components/css/formcontainer.css';
-const FormContainer = props => {
+function FormContainer({setNotes}) {
+  
+    // useEffect(()=>{
+    //     setNotes({
+    //         title: 'jchgchg',
+    //         note:'hfxfhxghcghjhvjh'
+    //     });
+    // },[])
     return (
         <div className="formcontainer">
             <form>
                 <h1>Create Note</h1>
-                <input placeholder="Enter Title " className="entertitle" />
-                <textarea placeholder="Enter Note" className="text"></textarea>
+                <input type="text" placeholder="Enter Title " id="input" className="entertitle" />
+                <textarea placeholder="Enter Note" className="text" id="text"></textarea>
             </form>
         </div>
     );
